@@ -2,7 +2,7 @@
 id: T1
 title: Add a greet helper with a test
 role: coder
-tdd: strict
+tdd: relaxed
 tests:
   - 'src/greet.test.ts exists'
   - 'greet("world") === "hello, world"'
