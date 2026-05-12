@@ -1,6 +1,6 @@
 ---
 id: T6
-title: "add titlecase helper"
+title: 'add titlecase helper'
 role: coder
 depends_on: [T4, T5]
 status: pending
