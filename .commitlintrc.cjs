@@ -1,1 +1,4 @@
-module.exports = { extends: ['@commitlint/config-conventional'] };
+'use strict';
+module.exports = {
+  ...require('./commitlint-rules'),
+};
