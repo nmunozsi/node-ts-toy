@@ -4,4 +4,4 @@
 
 ## Tasks
 
-- [ ] [T-gitmoji-smoke](T-gitmoji-smoke.md)
+- [ ] [T10](T10-gitmoji-smoke.md)

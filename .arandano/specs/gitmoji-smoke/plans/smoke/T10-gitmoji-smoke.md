@@ -1,5 +1,5 @@
 ---
-id: T-gitmoji-smoke
+id: T10
 title: 'add gitmoji smoke constant'
 role: coder
 status: pending
@@ -14,7 +14,7 @@ quality:
   reviewer_required: false
 ---
 
-> **Location:** `.arandano/specs/gitmoji-smoke/plans/smoke/T-gitmoji-smoke.md`
+> **Location:** `.arandano/specs/gitmoji-smoke/plans/smoke/T10-gitmoji-smoke.md`
 
 ## What
 
