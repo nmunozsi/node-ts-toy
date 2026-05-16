@@ -1,7 +1,7 @@
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
-  { ignores: ['**/dist/**', '**/coverage/**', '**/node_modules/**'] },
+  { ignores: ['**/dist/**', '**/coverage/**', '**/node_modules/**', 'commitlint-rules/**'] },
   ...tseslint.configs.recommendedTypeChecked,
   {
     languageOptions: {
@@ -16,4 +16,5 @@ export default tseslint.config(
     },
   },
   { files: ['**/*.test.ts'], rules: { '@typescript-eslint/no-explicit-any': 'off' } },
+  { files: ['**/*.cjs'], rules: { '@typescript-eslint/no-require-imports': 'off' } },
 );
