@@ -25,6 +25,10 @@ roles:
     cli: claude
     model: claude-haiku-4-5-20251001
     tdd: relaxed
+  architect:
+    cli: claude
+    model: claude-haiku-4-5-20251001
+    enabled: true
 
 quality_defaults:
   format: required
