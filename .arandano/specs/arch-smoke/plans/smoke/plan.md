@@ -4,5 +4,5 @@
 
 ## Tasks
 
-- [ ] [T1 — add helper one](T1-add-helper.md)
-- [ ] [T2 — add helper two](T2-add-second-helper.md)
+- [ ] [AS1 — add helper one](AS1-add-helper.md)
+- [ ] [AS2 — add helper two](AS2-add-second-helper.md)

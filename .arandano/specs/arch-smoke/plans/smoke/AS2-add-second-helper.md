@@ -1,11 +1,11 @@
 ---
-id: T2
+id: AS2
 title: Add archSmokeTwo helper
 role: coder
 tdd: relaxed
 ---
 
-> **Location:** `.arandano/specs/arch-smoke/plans/smoke/T2-add-second-helper.md`
+> **Location:** `.arandano/specs/arch-smoke/plans/smoke/AS2-add-second-helper.md`
 
 Add `export const archSmokeTwo = () => 2;` to `src/index.ts` plus a vitest assertion.
 
