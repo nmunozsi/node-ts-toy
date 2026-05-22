@@ -8,7 +8,9 @@ export function titlecase(s: string): string {
     .split(' ')
     .map((word) => {
       if (word.length === 0) return word;
-      return uppercase(word[0]) + lowercase(word.slice(1));
+      const first = word[0]!;
+      const rest = word.slice(1);
+      return uppercase(first) + lowercase(rest);
     })
     .join(' ');
 }
