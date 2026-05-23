@@ -8,7 +8,7 @@ export const titlecase = (s: string): string => {
   return words
     .map((word) => {
       if (word === '') return '';
-      const firstChar = uppercase(word[0]);
+      const firstChar = uppercase(word[0]!);
       const restChars = lowercase(word.slice(1));
       return firstChar + restChars;
     })
