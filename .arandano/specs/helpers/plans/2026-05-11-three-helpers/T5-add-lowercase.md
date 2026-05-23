@@ -12,6 +12,8 @@ quality:
   security: warn
   commit_msg: conventional
   reviewer_required: false
+inject_context:
+  - src/greet.ts
 ---
 
 ## What
