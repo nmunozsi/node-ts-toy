@@ -7,6 +7,7 @@ export default defineConfig({
       provider: 'v8',
       reporter: ['text', 'lcov'],
       thresholds: { lines: 80, functions: 80, branches: 75, statements: 80 },
+      exclude: ['commitlint-rules/**', '*.cjs', '*.js', '*.config.ts'],
     },
   },
 });
