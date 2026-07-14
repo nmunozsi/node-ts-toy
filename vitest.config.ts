@@ -6,6 +6,8 @@ export default defineConfig({
     coverage: {
       provider: 'v8',
       reporter: ['text', 'lcov'],
+      include: ['src/**'],
+      exclude: ['**/*.test.ts', 'commitlint-rules/**', '*.config.*'],
       thresholds: { lines: 80, functions: 80, branches: 75, statements: 80 },
     },
   },
